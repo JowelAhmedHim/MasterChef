@@ -13,11 +13,7 @@ h2 {
     font-size: 30px;
 }
 
-p {
-    padding: 30px 0;
-}
-
-.blue_class {
+.red_class {
     color: crimson
 }
 
@@ -25,6 +21,7 @@ p {
     display: flex;
     margin-bottom: 100px;
     align-items: center;
+    justify-content: center
 }
 
 .half_width {
@@ -32,23 +29,45 @@ p {
     padding-left: 2%;
 }
 
-.topBanner_img {
-    width: 70%;
+.half_width img {
+    width: 80%;
 }
 
 .link_btn {
     text-decoration: none;
     background-image: linear-gradient(orange, red);
     color: white;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 20px;
     font-weight: 400;
     cursor: pointer;
-
 }
 
 .middle_banner {
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.recipe_area img {
+    align-self: center;
+    width: 96%;
+    padding-top: 15px;
+    border-radius: 10%;
+}
+
+.recipe_area {
+    text-align: center;
+}
+
+.recipies_item {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+    text-align: left;
 }
