@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -13,6 +14,10 @@ h2 {
     font-size: 30px;
 }
 
+p {
+    padding-bottom: 40px;
+}
+
 .red_class {
     color: crimson
 }
@@ -21,12 +26,13 @@ h2 {
     display: flex;
     margin-bottom: 100px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .half_width {
     width: 50%;
-    padding-left: 2%;
+    padding: 5%;
 }
 
 .half_width img {
@@ -41,12 +47,14 @@ h2 {
     border-radius: 20px;
     font-weight: 400;
     cursor: pointer;
+
 }
 
 .middle_banner {
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 
@@ -54,7 +62,7 @@ h2 {
     align-self: center;
     width: 96%;
     padding-top: 15px;
-    border-radius: 10%;
+    border-radius: 8%;
 }
 
 .recipe_area {
@@ -70,4 +78,29 @@ h2 {
     border-radius: 20px;
     box-shadow: 5px 5px 20px gray;
     text-align: left;
+}
+
+.bonus_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(24, 30, 43);
+    text-align: center;
+    color: rgb(75, 74, 78);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
 }
